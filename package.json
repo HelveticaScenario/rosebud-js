@@ -1,0 +1,27 @@
+{
+  "name": "rosebud",
+  "version": "0.1.0",
+  "description": "a cool game",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "author": "Dan Lewis <thecontrarian42@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-core": "^6.16.0",
+    "babel-loader": "^6.2.5",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  },
+  "dependencies": {
+    "monaco-editor": "^0.6.1",
+    "stats.js": "^0.16.0",
+    "three": "^0.81.2"
+  }
+}

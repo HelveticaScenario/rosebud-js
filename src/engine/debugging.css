@@ -1,0 +1,20 @@
+body {
+	text-align: center;
+}
+
+.screen {
+	display: block;
+	margin: auto;
+	padding: 0;
+	border: none;
+	background-color: black;
+	image-rendering: pixelated;
+	cursor: none;
+}
+
+.stats {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	z-index: 999;
+}
